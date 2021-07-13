@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello-world-pod
-        image:  ${IMAGE_REPO}/${IMAGE_NAME}:${IMAGE_TAG}
+        image:  asia.gcr.io/abstract-stream-316904/java-demo:jenkins
         ports: 
         - containerPort: 8080
 ---
