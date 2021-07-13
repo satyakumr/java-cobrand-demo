@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello-world-pod
-        image:  asia.gcr.io/abstract-stream-316904/java-demo:jenkins
+        image:  asia.gcr.io/abstract-stream-316904/java-cobrand-demo:jenkins
         ports: 
         - containerPort: 8080
 ---
