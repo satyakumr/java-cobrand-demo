@@ -17,7 +17,7 @@ spec:
       containers:
       - name: hello-world-pod
         #image:  asia.gcr.io/abstract-stream-316904/java-cobrand-demo:jenkins
-        image: testjfrogd.jfrog.io/default-docker-virtual/my-image:93
+        image: testjfrogd.jfrog.io/default-docker-virtual/my-image:95
         ports: 
         - containerPort: 8080
       imagePullSecrets:
