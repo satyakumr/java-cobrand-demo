@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: java-world-jenkins
+  name: java-jenkins
   labels:
     app: hello-world
 spec:
@@ -26,7 +26,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: java-world-jenkins-service
+  name: java-jenkins-service
 spec:
   selector:
     app: hello-world
